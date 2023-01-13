@@ -1,0 +1,487 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background: url(./allpicture/shoes.jfif) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+.logos {
+    color: red;
+    font-size: 44px;
+    font-size: 1.2em;
+}
+
+.logoid {
+    color: white;
+    text-shadow: 2px 5px 3px rgb(0 0 0 / 6%);
+    font-size: 1.1em;
+    padding-left: 40px;
+}
+
+#firstul {
+    display: flex;
+}
+
+#firstul li {
+    list-style: none;
+    padding: 10px 25px;
+}
+
+#firstul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#firstul li a:hover {
+    color: tomato;
+}
+
+/* Dropdown section */
+
+/* .dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    background-color: transparent;
+    min-width: 166px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover{
+    background-color: coral;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover  .dropbtn{
+    background-color: yellow;
+} */
+
+/* nike shoes txt in img */
+
+.main {
+    top: 40%;
+    left: 98px;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.parafirst {
+    font-size: 13px;
+}
+
+.headingfirst {
+    letter-spacing: 3.3px;
+    font-size: 40px;
+}
+
+.btn1 {
+    padding: 11px 32px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    font-weight: 500;
+    color: white;
+    background-color: #10adfb;
+    border: #10adfb;
+    cursor: pointer;
+}
+
+.btn2 {
+    padding: 11px 32px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    font-weight: 500;
+    color: tomato;
+    background-color: white;
+    border: white;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #449ac5;
+}
+
+.btn2:hover {
+    background-color: rgb(221, 202, 202);
+}
+
+.about {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec4 {
+    padding: 10px;
+    border: 1.5px solid black;
+    align-items: center;
+}
+
+.abc {
+    box-shadow: 2px 2px 12px darkgrey;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 25%;
+    padding: 20px;
+    justify-content: center;
+}
+
+#icon1 {
+    font-size: 34px;
+    padding-right: 26px;
+}
+
+#icon2 {
+    font-size: 34px;
+    padding-right: 26px;
+}
+
+#icon3 {
+    font-size: 34px;
+    padding-right: 26px;
+}
+
+#icon4 {
+    font-size: 34px;
+    padding-right: 26px;
+}
+
+.abut1 :first-child {
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding-bottom: 2px;
+}
+
+.abut1 :last-child {
+    letter-spacing: .4px;
+}
+
+#member {
+    background-color: tomato;
+}
+
+/* Category section */
+
+.cathead {
+    text-align: center;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+}
+
+.kid {
+    width: 33%;
+    border: 2px solid gray;
+    margin: 25px 85px 10px 85px;
+    text-align: center;
+    justify-content: center;
+    padding: 7px;
+    box-shadow: 2px 2px 4px darkgrey;
+}
+
+.kidimg {
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#men {
+    background-color: #c35e4c99;
+}
+
+.kidtxt {
+    letter-spacing: 1px;
+}
+
+/* New arrival */
+
+.arrivalhead {
+    text-align: center;
+    margin: 35px 0px;
+    letter-spacing: 1px;
+}
+
+.arrival {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrival2 {
+    margin-top: 10px;
+}
+
+.product1 {
+    width: 25%;
+    margin: 17px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px;
+    background-color: #63acbd4d;
+    border-radius: 5px;
+    transition: top ease 0.5s;
+    position: relative;
+}
+
+.product1:hover {
+    top: -15px;
+    background-color: #f7c66d9e;
+}
+
+.av {
+    width: 80%;
+    border: 1.5px solid grey;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.proname {
+    letter-spacing: 1.5px;
+}
+
+.propara {
+    padding: 5px 0px;
+    font-weight: 500;
+    letter-spacing: .4px;
+}
+
+.probtn {
+    padding: 2px 38px;
+    font-weight: 500;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1.1px solid red;
+}
+
+.probtn:hover {
+    background-color: white;
+    color: black;
+    border: 1.1px solid black;
+}
+
+/* last section */
+
+.last {
+    background-color: black;
+    color: white;
+    margin: 20px 0px;
+}
+
+.logo2 {
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.lastpara {
+    padding: 10px 20vw 20px 20vw;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+
+}
+
+.icondiv {
+    padding-top: 10px;
+}
+
+#fb {
+    padding: 10px 5px 5px 5px;
+    font-size: 29px;
+    color: white;
+}
+
+#tw {
+    padding: 10px 5px 5px 5px;
+    font-size: 29px;
+    color: white;
+}
+
+#insta {
+    padding: 10px 5px 5px 5px;
+    font-size: 29px;
+    color: white;
+}
+
+#yt {
+    padding: 10px 5px 5px 5px;
+    font-size: 29px;
+    color: white;
+}
+
+.lastpara2 {
+    font-weight: 400;
+    margin-top: 4px;
+    letter-spacing: 1px;
+}
+
+/* media  */
+
+@media (max-width:999px) {
+    .kid {
+        margin: 25px 70px 10px 70px;
+    }
+}
+
+@media (max-width:866px) {
+
+    .main {
+        padding: 6px;
+        left: 30px;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    #firstul {
+        display: none;
+    }
+
+    .abc {
+        width: 75%;
+
+    }
+
+    .kid {
+        margin: 25px 40px 10px 40px;
+    }
+
+    .product1 {
+        width: 93%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .probtn{
+        padding: 2px 32px;
+    }
+}
+
+@media (max-width:729px) {
+    .arrival {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product1 {
+            width: 41%;
+        }
+}
+
+@media (max-width:700px) {
+    .kid {
+        margin: 25px 32px 10px 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .kid {
+        margin: 25px 24px 10px 24px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .main {
+        padding: 6px;
+        left: 30px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #firstul {
+        display: none;
+    }
+
+    .abc {
+        width: 75%;
+
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 7px 19px;
+    }
+
+    .category {
+       flex-wrap: wrap;
+       justify-content: center;
+       width: 75%;
+       margin: auto;
+    }
+
+    .kid {
+        width: 77%;
+    }
+
+    .arrival {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:408px) {
+.abc {
+    width: 65%;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width:377px){
+    .product1 {
+        width: 70%;
+    }
+}
